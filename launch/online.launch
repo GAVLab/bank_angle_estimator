@@ -1,0 +1,8 @@
+<launch>
+  
+  <!-- Start the Loosely Coupled EKF node -->
+    <node pkg="bank_angle_estimator" type="bank_angle_estimator_node" name="bank_angle_estimator" output="screen" required="true">
+      <param type="double" name="Roll_Rate_Stiffness" value="0.0000658589" />
+    </node>
+
+</launch> 
